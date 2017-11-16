@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.thuongdh.books.Main2Activity">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:id="@+id/container">
+
+    </FrameLayout>
+    <LinearLayout
+        android:background="#14bf9a"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:id="@+id/btnSach"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:text="Sách"
+            android:drawableLeft="@drawable/book"
+            android:textStyle="italic"
+            android:background="#ed3131"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:id="@+id/btnTacGia"
+            android:textStyle="italic"
+            android:text="Tác giả"
+            android:textColor="#ffffff"
+            android:background="#ed3131"
+            android:drawableLeft="@drawable/writer"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Cài đặt"
+            android:id="@+id/btnSetting"
+            android:textColor="#ffffff"
+            android:background="#ed3131"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:drawableLeft="@drawable/setting"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"></LinearLayout>
+</LinearLayout>
+</android.support.constraint.ConstraintLayout>
