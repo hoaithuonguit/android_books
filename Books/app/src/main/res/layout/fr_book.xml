@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/tvfrBook"
+        android:text="Sách của tôi"
+        android:textStyle="italic|bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="#ace7d4"
+        android:textColor="#fc0101"
+        />
+    <ListView
+        android:background="#f1edbf"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:id="@+id/lvfrBook">
+    </ListView>
+</LinearLayout>
+</LinearLayout>
